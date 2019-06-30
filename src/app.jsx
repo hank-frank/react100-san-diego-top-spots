@@ -32,13 +32,14 @@ class App extends Component {
   render() {
     return (
        <div className='App container'>
-        <div className="jumbotron jumbotron-fluid container text-center">
+        <div className="jumbotron text-center">
           <h1>San Diego Top Spots</h1>
           <p className="font-weight-light">A list of the top 30 places to see in San Diego, California.</p>
-          <hr className="my-4"></hr>
+          {/* this is a button that has its onClick attached to a firing of the componentWillMount function above, it allows a console log of the capturing of the array to appear in the console */}
+          {/* <hr className="my-4"></hr>
           <p className="lead">
             <a className="btn btn-primary btn-lg" href="#" role="button" onClick={() => this.componentWillMount()}>I'm a sample button!</a>
-          </p>
+          </p> */}
         </div>
         {/* <div className="well well-lg">
           <pre>{ JSON.stringify(this.state.topspots, null, 2) }</pre>
